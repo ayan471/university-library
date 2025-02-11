@@ -4,11 +4,11 @@ interface Book {
   author: string;
   genre: string;
   rating: number;
-  total_copies: number;
-  available_copies: number;
+  totalCopies: number;
+  availableCopies: number;
   description: string;
-  cover: string;
-  color: string;
+  coverColor: string;
+  coverUrl: string;
   videoUrl: string;
   summary: string;
   createdAt: Date | null;
